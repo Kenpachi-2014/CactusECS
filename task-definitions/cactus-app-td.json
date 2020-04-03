@@ -1,0 +1,21 @@
+[
+    {
+        "name": "cactus-app",
+        "image": "480549071050.dkr.ecr.us-east-1.amazonaws.com/mypythonapp:v1.0",
+        "cpu": 10,
+        "memory": 512,
+        "links": [],
+        "portMappings": [
+            {
+                "containerPort": 80,
+                "protocol": "tcp"
+            }
+        ],
+        "essential": true,
+        "entryPoint": [],
+        "command": [],
+        "environment": [],
+        "mountPoints": [],
+        "volumesFrom": []
+    }
+]
