@@ -18,7 +18,7 @@ variable "availability_zone" {
 
 variable "ecs_cluster_name" {
     description = "Name Amazon ECS cluster."
-    default = "main"
+    default = "cactus-ecs-cluster"
 }
 
 variable "amis" {
@@ -30,7 +30,7 @@ variable "amis" {
 
 variable "autoscale_min" {
     default = "1"
-    description = "Minimum number of EC2
+    description = "Minimum number of EC2"
 }
 
 variable "autoscale_max" {
